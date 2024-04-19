@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Arduino</string>
+    <string name="hello_blank_fragment">Hello blank fragmento</string>
+
+    <string name="arduinos">Arduinos</string>
+    <string name="basic_components">Basic Components</string>
+    <string name="advanced_components">Advanced Components</string>
+    <string name="resistors">Resistors</string>
+    <string name="cables">Cables</string>
+
+    <string name="uno">Arduino UNO</string>
+    <string name="uno_description">Microcontroller: ATmega328P.
+            Operating Voltage: 5V.
+            Digital I/O Pins: 14.
+            Analog Input Pins: 6.
+            Flash Memory: 32KB (0.5KB used by bootloader).
+            SRAM: 2KB.
+            Clock Speed: 16MHz.
+    </string>
 </resources>
