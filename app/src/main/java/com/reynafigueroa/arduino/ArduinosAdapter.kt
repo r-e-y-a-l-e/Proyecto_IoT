@@ -8,7 +8,7 @@ import com.reynafigueroa.arduino.Arduinos
 import com.reynafigueroa.arduino.R
 import com.squareup.picasso.Picasso
 
-class ArduinosAdapter(private val cards: List<Arduinos>, private val listener: OnCardClickListener) : RecyclerView.Adapter<ArduinosAdapter.ArduinosViewHolder>() {
+class ArduinosAdapter(private var cards: List<Arduinos>, private val listener: OnCardClickListener) : RecyclerView.Adapter<ArduinosAdapter.ArduinosViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArduinosViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_arduinos, parent, false)
@@ -29,17 +29,19 @@ class ArduinosAdapter(private val cards: List<Arduinos>, private val listener: O
 
     inner class ArduinosViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val titleTextView: TextView = itemView.findViewById(R.id.model)
-        private val descriptionTextView: TextView = itemView.findViewById(R.id.description)
         private val imageView: ImageView = itemView.findViewById(R.id.image)
 
         fun bind(card: Arduinos) {
             titleTextView.text = card.model
-            descriptionTextView.text = card.description
             Picasso.get().load(card.image).into(imageView)
         }
     }
 
     interface OnCardClickListener {
         fun onCardClick(card: Arduinos)
+    }
+    fun updateData(newCards: List<Arduinos>) {
+        cards = newCards
+        notifyDataSetChanged()
     }
 }

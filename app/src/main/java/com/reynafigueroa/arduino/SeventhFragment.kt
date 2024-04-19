@@ -30,7 +30,9 @@ class SeventhFragment : Fragment() {
         // Utiliza los datos de arduinoData para configurar la vista
         view.findViewById<TextView>(R.id.textViewTitle).text = arduinoData.model
         view.findViewById<TextView>(R.id.textViewDescription).text = arduinoData.description
+        view.findViewById<TextView>(R.id.textViewCharac).text = arduinoData.characteristics
         Picasso.get().load(arduinoData.image).into(view.findViewById<ImageView>(R.id.imageView))
+
 
         return view
     }

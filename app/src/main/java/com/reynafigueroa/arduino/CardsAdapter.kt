@@ -29,12 +29,10 @@ class CardsAdapter(private val cards: List<Card>, private val clickListener: OnC
 
     inner class CardsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val titleTextView: TextView = itemView.findViewById(R.id.title)
-        private val descriptionTextView: TextView = itemView.findViewById(R.id.description)
         private val imageView: ImageView = itemView.findViewById(R.id.image)
 
         fun bind(card: Card) {
             titleTextView.text = card.title
-            descriptionTextView.text = card.description
             Picasso.get().load(card.imageUrl).into(imageView)
         }
     }

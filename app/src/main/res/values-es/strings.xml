@@ -1,2 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Arduino</string>
+
+    <string name="arduinos">Arduinos</string>
+    <string name="basic_components">Componentes Basicos</string>
+    <string name="advanced_components">Componentes Avanzados</string>
+    <string name="resistors">Resistencias</string>
+    <string name="cables">Cables</string>
+    <string name="search_hint">Buscar por modelo</string>
+
+    <string name="uno">Arduino UNO</string>
+    <string name="uno_description">Uno de los modelos más populares de Arduino, ideal para proyectos de principiantes y avanzados.</string>
+    <string name="uno_charac">
+        "
+        Microcontrolador: ATmega328P.
+
+        Voltaje de operación: 5V.
+
+        Puertos digitales: 14.
+
+        Puertos analógicos: 6.
+
+        Memoria flash: 32KB.
+
+        Memoria SRAM: 2KB.
+
+        Velocidad de reloj: 16MHz."
+    </string>
+
+    <string name="mega">Arduino Mega 2560</string>
+    <string name="mega_description">Ofrece una gran cantidad de pines de entrada/salida, ideal para proyectos más grandes y complejos.</string>
+    <string name="mega_charac">
+        "
+        Microcontrolador: ATmega2560.
+
+        Voltaje de operación: 5V.
+
+        Puertos digitales: 54.
+
+        Puertos analógicos: 16.
+
+        Memoria flash: 256KB .
+
+        Memoria SRAM: 8KB.
+
+        Velocidad de reloj: 16MHz."
+    </string>
+
+    <string name="nano">Arduino Nano</string>
+    <string name="nano_description">Compacto y versátil, perfecto para proyectos donde el espacio es limitado.</string>
+    <string name="nano_charac">"
+        Microcontrolador: ATmega328P.
+
+        Voltaje de operación: 5V.
+
+        Puertos digitales: 14.
+
+        Puertos analógicos: 8.
+
+        Memoria flash: 32KB.
+
+        Memoria SRAM: 2KB.
+
+        Velocidad de reloj: 16MHz."
+    </string>
+
+    <string name="due">Arduino Due</string>
+    <string name="due_description">Equipado con un potente microcontrolador, adecuado para proyectos que requieren alto rendimiento.</string>
+    <string name="due_charc">"
+        Microcontrolador: AT91SAM3X8E.
+
+        Voltaje de operación: 3.3V.
+
+        Puertos digitales: 54.
+
+        Puertos analógicos: 12.
+
+        Memoria flash: 512KB.
+
+        Memoria SRAM: 96KB.
+
+        Velocidad de reloj: 84MHz."
+    </string>
+
+    <string name="leo">Arduino Leonardo</string>
+    <string name="leo_description">Destacado por su capacidad de emulación de dispositivos USB, ideal para proyectos de interfaz de usuario.</string>
+    <string name="leo_charc">"
+        Microcontrolador: ATmega32u4.
+
+        Voltaje de operación: 5V.
+
+        Puertos digitales: 20.
+
+        Puertos analógicos: 12.
+
+        Memoria flash: 32KB.
+
+        Memoria SRAM: 2.5KB.
+
+        Velocidad de reloj: 16MHz."
+    </string>
+
+    <string name="proMini">Arduino Pro Mini</string>
+    <string name="proMini_description">Compacto y económico, ideal para proyectos donde se requiere un tamaño reducido.</string>
+    <string name="proMini_charac">"
+        Microcontrolador: ATmega328P.
+
+        Voltaje de operación: 3.3V o 5V.
+
+        Puertos digitales: 14.
+
+        Puertos analógicos: 6.
+
+        Memoria flash: 32KB.
+
+        Memoria SRAM: 2KB.
+
+        Velocidad de reloj: 8MHz o 16MHz."
+    </string>
+</resources>

@@ -36,11 +36,11 @@ class FirstFragment : Fragment(), CardsAdapter.OnCardClickListener {
 
     private fun initData() {
         cardList = listOf(
-            Card(1, getString(R.string.arduinos), "Tarjeta electrónica programable...", "https://publys.cl/wp-content/uploads/2019/06/515b4656ce395f8a38000000.png"),
-            Card(2, getString(R.string.basic_components), "Tarjeta electrónica programable...", "https://cdn1.coppel.com/images/catalog/mkp/3691/3000/36911065-1.jpg"),
-            Card(3, getString(R.string.advanced_components), "Tarjeta electrónica programable...", "https://m.media-amazon.com/images/I/81JSQLUMNiL._AC_UF894,1000_QL80_.jpg"),
-            Card(4, getString(R.string.resistors), "Tarjeta electrónica programable...", "https://autosoporte.com/wp-content/uploads/2021/05/Resistencias-electricas.jpg"),
-            Card(5, getString(R.string.cables), "Tarjeta electrónica programable...", "https://www.researchgate.net/profile/Gopi-Manoj-Vuyyuru-2/publication/351917963/figure/fig4/AS:1028128814166018@1622136419283/Arduino-Uno-USB-Cable-F-Jumper-Wires-Jumper-wires-are-simple-cables-having-connector.jpg")
+            Card(1, getString(R.string.arduinos), "https://publys.cl/wp-content/uploads/2019/06/515b4656ce395f8a38000000.png"),
+            Card(2, getString(R.string.basic_components), "https://cdn1.coppel.com/images/catalog/mkp/3691/3000/36911065-1.jpg"),
+            Card(3, getString(R.string.advanced_components), "https://m.media-amazon.com/images/I/81JSQLUMNiL._AC_UF894,1000_QL80_.jpg"),
+            Card(4, getString(R.string.resistors), "https://autosoporte.com/wp-content/uploads/2021/05/Resistencias-electricas.jpg"),
+            Card(5, getString(R.string.cables), "https://www.researchgate.net/profile/Gopi-Manoj-Vuyyuru-2/publication/351917963/figure/fig4/AS:1028128814166018@1622136419283/Arduino-Uno-USB-Cable-F-Jumper-Wires-Jumper-wires-are-simple-cables-having-connector.jpg")
         )
     }
 }

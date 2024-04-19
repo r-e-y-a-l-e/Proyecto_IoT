@@ -1,7 +1,40 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Arduino" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/colorText</item>
     </style>
+    <style name="title" parent="Base.Theme.Arduino">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="title2" parent="Base.Theme.Arduino">
+    <item name="android:textSize">35sp</item>
+    <item name="android:textAlignment">center</item>
+    <item name="fontFamily">sans-serif-condensed</item>
+    <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="description" parent="Base.Theme.Arduino">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="charac" parent="Base.Theme.Arduino">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="cards" parent="Base.Theme.Arduino">
+        <item name="android:backgroundTint">@color/colorBackground</item>
+    </style>
+
 </resources>

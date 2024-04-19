@@ -1,20 +1,118 @@
 <resources>
     <string name="app_name">Arduino</string>
-    <string name="hello_blank_fragment">Hello blank fragmento</string>
 
     <string name="arduinos">Arduinos</string>
     <string name="basic_components">Basic Components</string>
     <string name="advanced_components">Advanced Components</string>
     <string name="resistors">Resistors</string>
     <string name="cables">Cables</string>
+    <string name="search_hint">Search by Model</string>
 
     <string name="uno">Arduino UNO</string>
-    <string name="uno_description">Microcontroller: ATmega328P.
+    <string name="uno_description">One of the most popular Arduino models, ideal for both beginner and advanced projects.</string>
+    <string name="uno_charac">"
+            Microcontroller: ATmega328.
+
             Operating Voltage: 5V.
+
             Digital I/O Pins: 14.
+
             Analog Input Pins: 6.
-            Flash Memory: 32KB (0.5KB used by bootloader).
+
+            Flash Memory: 32KB.
+
             SRAM: 2KB.
-            Clock Speed: 16MHz.
+
+            Clock Speed: 16MHz."
     </string>
+
+    <string name="mega">Arduino Mega 2560</string>
+    <string name="mega_description">Provides a large number of input/output pins, ideal for larger and more complex projects.</string>
+    <string name="mega_charac">"
+        Microcontroller: ATmega2560.
+
+        Operating Voltage: 5V.
+
+        Digital I/O Pins: 54.
+
+        Analog Input Pins: 16.
+
+        Flash Memory: 256KB.
+
+        SRAM: 8KB.
+
+        Clock Speed: 16MHz."
+    </string>
+
+    <string name="nano">Arduino Nano</string>
+    <string name="nano_description">Compact and versatile, perfect for projects where space is limited.</string>
+    <string name="nano_charac">"
+        Microcontroller: ATmega328P.
+
+        Operating Voltage: 5V.
+
+        Digital I/O Pins: 14.
+
+        Analog Input Pins: 8.
+
+        Flash Memory: 32KB.
+
+        SRAM: 2KB.
+
+        Clock Speed: 16MHz."
+    </string>
+
+    <string name="due">Arduino Due</string>
+    <string name="due_description">Equipped with a powerful microcontroller, suitable for projects that require high performance.</string>
+    <string name="due_charc">"
+        Microcontroller: AT91SAM3X8E.
+
+        Operating Voltage: 3.3V.
+
+        Digital I/O Pins: 54.
+
+        Analog Input Pins: 12.
+
+        Flash Memory: 512KB.
+
+        SRAM: 96KB.
+
+        Clock Speed: 84MHz."
+    </string>
+
+    <string name="leo">Arduino Leonardo</string>
+    <string name="leo_description">Notable for its USB device emulation capability, ideal for user interface projects.</string>
+    <string name="leo_charc">"
+        Microcontroller: ATmega32u4.
+
+        Operating Voltage: 5V.
+
+        Digital I/O Pins: 20.
+
+        Analog Input Pins: 12.
+
+        Flash Memory: 32KB.
+
+        SRAM: 2.5KB.
+
+        Clock Speed: 16MHz."
+    </string>
+
+    <string name="proMini">Arduino Pro Mini</string>
+    <string name="proMini_description">Compact and cost-effective, ideal for projects where a small size is required.</string>
+    <string name="proMini_charac">"
+        Microcontroller: ATmega328P.
+
+        Operating Voltage: 3.3V or 5V.
+
+        Digital I/O Pins: 14.
+
+        Analog Input Pins: 6.
+
+        Flash Memory: 32KB.
+
+        SRAM: 2KB.
+
+        Clock Speed: 8MHz or 16MHz."
+</string>
 </resources>
